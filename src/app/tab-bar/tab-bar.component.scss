@@ -1,0 +1,29 @@
+.tab-bar {
+    width: 100%;
+    background-color: #16358f;
+    box-shadow: 0px -1px 1px rgb(163, 163, 163);
+    display: none;
+}
+
+.tab-content{
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    justify-content: space-around;
+    .bx{
+        font-size: 24px;
+        color: #fefefe;
+        cursor: pointer;
+        transition: .5s all;
+        
+    }
+}
+.active {
+    border-bottom: 1px solid #fefefe;
+}
+
+@media (max-width: 600px) {
+    .tab-bar{
+        display: block;
+    }
+}

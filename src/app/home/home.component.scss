@@ -1,0 +1,104 @@
+.bg{
+    width: 100vw;
+    height: 101vh;
+    background-image: url("../../assets/images/bg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+}
+
+.home-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    h1, p{
+        color: #ffff;
+    }
+    h1{
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.3em;
+    }
+}
+
+.social-icon {
+    width: 65%;
+}
+
+.social-icon ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.bx {
+    background-color: #16358f;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    transition: 0.5s;
+    color: #fefefe;
+}
+
+.social-icon li a:hover .bx{
+    transform: rotateY(360deg);
+  }
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    .btn1{
+        background-color: #16358f;
+        color: #fefefe;
+        padding: 15px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .btn2{
+        background-color: #fefefe;
+        color: #16358f;
+        padding: 15px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 600px) {
+    .bg{
+        background-image: url("../../assets/images/bg-mobile1.png");
+        background-position: bottom;
+        height: 97vh;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .home-page{
+        align-items: center;
+        justify-content: flex-start;
+        h1{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1em;
+        }
+    }
+
+    .social-icon {
+        margin-top: 100px;
+    }
+}
