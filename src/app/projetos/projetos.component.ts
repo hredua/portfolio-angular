@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-projetos',
@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./projetos.component.scss']
 })
 export class ProjetosComponent {
+
+  public website!:String
+  public github!:String
+  public breve!:String
+  public api!:String
+
+  ngOnInit() {
+    this.website = 'Website'
+    this.github = 'Github'
+    this.breve = 'Aguarde'
+    this.api = 'API'
+  }
 
 }

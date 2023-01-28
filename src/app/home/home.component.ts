@@ -23,7 +23,7 @@ export class HomeComponent {
   ngOnInit() {
     this.iam = 'Oi, eu sou o Helamã Rédua'
     this.textOne = 'Sou dev front-end, estudo programação a 2 anos'
-    this.textTwo = 'Minhas especialidades são criação de Websites, Apps, e SaaS '
+    this.textTwo = 'Minhas especialidades são criação de Websites, Apps e SaaS '
     this.instagram = 'https://www.instagram.com/hrredua/'
     this.linkedin = 'https://www.linkedin.com/in/hredua/'
     this.github = 'https://github.com/hredua/'
