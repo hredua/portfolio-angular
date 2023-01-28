@@ -8,6 +8,10 @@
     text-decoration: none;
     font-family: 'Poppins';
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
 body {
     background-color: #383636;
 }
