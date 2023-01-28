@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./tab-bar.component.scss']
 })
 export class TabBarComponent {
-public exact!:boolean
+
+  downloadFile(){
+   let ok=confirm('Deseja baixar meu currículo?')
+   if (ok==true) {
+    let link = document.createElement("a");
+    link.download = "Currículo-Helamã";
+    link.href = "assets/misc/curriculo.pdf";
+    link.click();
+   }
+
+}
 }

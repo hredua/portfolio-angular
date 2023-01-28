@@ -119,34 +119,30 @@ figure.snip1033 .white {
   background-color: #ffffff;
   color: #16358f;
 }
-figure.snip1033:hover img,
-figure.snip1033.hover img {
+figure.snip1033:hover img
+{
   opacity: 0.5;
 }
-figure.snip1033:hover figcaption .left h3,
-figure.snip1033.hover figcaption .left h3 {
+figure.snip1033:hover figcaption .left h3{
   opacity: 1;
   margin-right: 10px;
   background-color: #16358f;
   -webkit-transform: translate(0%, 0px);
   transform: translate(0%, 0px);
 }
-figure.snip1033:hover figcaption .right h3,
-figure.snip1033.hover figcaption .right h3 {
+figure.snip1033:hover figcaption .right h3{
   opacity: 1;
   margin-left: 10px;
   background-color: #ffffff;
   -webkit-transform: translate(0%, 0px);
   transform: translate(0%, 0px);
 }
-figure.snip1033:hover .center,
-figure.snip1033.hover .center {
+figure.snip1033:hover .center{
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
   transform: translate(-50%, -50%) rotate(45deg);
 }
-figure.snip1033:hover .center i,
-figure.snip1033.hover .center i {
+figure.snip1033:hover .center i {
   -webkit-transform: translate(0%, -10px);
   transform: translate(0%, -10px);
 }
