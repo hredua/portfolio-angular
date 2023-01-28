@@ -5,17 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TabBarComponent } from './tab-bar/tab-bar.component';
 import { HomeComponent } from './home/home.component';
+import { ProjetosComponent } from './projetos/projetos.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { ProjetosComponent } from './projetos/projetos.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TabBarComponent,
     HomeComponent,
-    SobreComponent,
-    ProjetosComponent
+    ProjetosComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
