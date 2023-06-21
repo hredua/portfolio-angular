@@ -23,10 +23,11 @@ nav {
         display: flex;
         gap: 30px;
     }
-    a {
+    a, li {
         color: #fff;
         font-weight: 400;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        cursor: pointer;
     }
 }
 

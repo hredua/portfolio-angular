@@ -11,12 +11,14 @@ export class ProjetosComponent {
   public github!:String
   public breve!:String
   public api!:String
+  public locked!:String
 
   ngOnInit() {
     this.website = 'Website'
     this.github = 'Github'
     this.breve = 'Aguarde'
     this.api = 'API'
+    this.locked = '🔒'
   }
 
 }

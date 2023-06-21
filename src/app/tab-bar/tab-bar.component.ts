@@ -11,10 +11,9 @@ export class TabBarComponent {
    let ok=confirm('Deseja baixar meu currículo?')
    if (ok==true) {
     let link = document.createElement("a");
-    link.download = "Currículo-Helamã";
+    link.download = "Currículo Helamã Rédua";
     link.href = "assets/misc/curriculo.pdf";
     link.click();
    }
-
 }
 }
